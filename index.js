@@ -1,4 +1,12 @@
 class Calculator {
+    addmultiple(...a){
+        let sum=0;
+        for (let index = 0; index < a.length; index++) {
+            sum += a[index];
+            
+        }
+        return sum;
+    }
     add(a, b) {
         return a + b;
     }
