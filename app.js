@@ -8,3 +8,6 @@ function foo(){
 function test(){
     console.log("priyanshu")
 }
+function sham(){
+    console.log("priyashsu")
+}
