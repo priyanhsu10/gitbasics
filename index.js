@@ -51,4 +51,4 @@ tester.testAdd();
 tester.testMultiply();
 tester.testSubtract();
 tester.testDevide();
-console.log("this is goining to change") 
+console.log("this is goining to change and letst check mster has reflected the changes") 
