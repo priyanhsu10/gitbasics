@@ -1,18 +1,54 @@
-console.log("this is first git pactice package");
-
-const add = (a, b) => a + b;
-console.log(add(1, 2));
-const subjtract = (a, b) => a - b;
-console.log(subjtract(10, 5));
-const multiply = (a, b) => a * b;
-console.log(multiply(10, 30))
-const devide = (a, b) => {
-    if (b === 0) {
-        console.log("divident cannot be zero");
-        return;
+class Calculator {
+    add(a, b) {
+        return a + b;
+    }
+    subjtract(a, b) {
+        return a - b;
 
     }
-    return a/b;
+    multiply(a,b){
+        return a*b;
+    }
+    devide(a, b) {
+        if (b === 0) {
+            console.log("divident cannot be zero");
+            return;
+        }
+        return a / b;
+    }
 
 }
-console.log(devide(1,0))
+class calculatorTest{
+   
+
+    constructor(){
+        
+    }
+
+    testAdd(){
+        const c=new Calculator();
+        console.log( c.add(10,20))
+    }
+
+    testSubtract(){
+        const c=new Calculator();
+        console.log( c.subjtract(10,20))
+    }
+
+    testDevide(){
+        const c=new Calculator();
+        console.log( c.devide(10,20))
+    }
+
+    testMultiply(){
+        const c=new Calculator();
+        console.log( c.multiply(10,20))
+    }
+}
+
+const tester= new calculatorTest();
+tester.testAdd();
+tester.testMultiply();
+tester.testSubtract();
+tester.testDevide();
+ 
