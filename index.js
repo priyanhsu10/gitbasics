@@ -51,4 +51,4 @@ tester.testAdd();
 tester.testMultiply();
 tester.testSubtract();
 tester.testDevide();
- 
+ console.log("git check peek commmand")
