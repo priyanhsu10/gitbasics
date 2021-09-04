@@ -35,22 +35,22 @@ class calculatorTest{
 
     testAdd(){
         const c=new Calculator();
-        console.log( c.add(10,20))
+        console.log( c.add(10,20));
     }
 
     testSubtract(){
         const c=new Calculator();
-        console.log( c.subjtract(10,20))
+        console.log( c.subjtract(10,20));
     }
 
     testDevide(){
         const c=new Calculator();
-        console.log( c.devide(10,20))
+        console.log( c.devide(10,20));
     }
 
     testMultiply(){
         const c=new Calculator();
-        console.log( c.multiply(10,20))
+        console.log( c.multiply(10,20));
     }
 }
 
@@ -59,4 +59,6 @@ tester.testAdd();
 tester.testMultiply();
 tester.testSubtract();
 tester.testDevide();
-console.log("this is goining to change and letst check mster has reflected the changes") 
+console.log("this is goining to change and letst check mster has reflected the changes"); 
+ console.log("git check peek commmand");
+
