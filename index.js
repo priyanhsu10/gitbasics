@@ -60,3 +60,4 @@ tester.testMultiply();
 tester.testSubtract();
 tester.testDevide();
  console.log("git check peek commmand")
+console.log("this is goining to change") 
