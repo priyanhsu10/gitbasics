@@ -17,4 +17,4 @@ git branch --merged
 git clean -df (delete all untract file and folder)
 git reflog 
 git checkout <hash of commit>
-then git
+git revert  <hash of commit>
