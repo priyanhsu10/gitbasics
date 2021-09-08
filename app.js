@@ -11,6 +11,3 @@ function test(){
 function sham(){
     console.log("priyashsu")
 }
-function sunder(){
-    console.log("sunder")
-}
