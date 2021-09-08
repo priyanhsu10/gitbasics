@@ -3,6 +3,8 @@ git status
 git commit -m "message"
 git branch  newBarnchName
 git branch checkout newBarnch
+git branch -d brachname ---delete  localbranch
+git push --delete -u orgin branchname
 git branch -a
 git push 
 git remote add origin  <remote repository name>
@@ -18,3 +20,22 @@ git clean -df (delete all untract file and folder)
 git reflog 
 git checkout <hash of commit>
 git revert  <hash of commit>
+git diff <hash1 > <hash2>
+git stash save "shelvename"
+git stash list
+git stash apply <stash  name>
+git stash pop
+git stash drop
+git  stash clear ---delete all stashes
+git merge --squash <branchname> ----- last commit history and branch commit history will lost
+git rebase master ---- this command should be from feature brach 
+explaination
+master -> c1------c2----c3
+                  \
+feature->         c2------f2----f3
+rebase -> c1------c2----c3
+                        \
+                        c3------f2----f3
+
+
+
