@@ -1,13 +1,14 @@
-console.log("app.js")
-function print(){
-console.log("this is owsome app");
+function add(a,b){
+    return a+b;
+
 }
-function foo(){
-    console.log("bar");
+function subtract(a,b){
+    return a-b;
+
 }
-function test(){
-    console.log("priyanshu")
+function devide(a, b){
+    return a/b;
 }
-function sham(){
-    console.log("priyashsu")
+function multiply(a,b){
+    return a * b;
 }
