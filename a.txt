@@ -1,8 +1,13 @@
+git config --global user.name "<username>"
+git config --global user.email "<emial>"
+git config --list
+git <command> --help
+git add -A
 git init 
 git status
 git commit -m "message"
 git branch  newBarnchName
-git branch checkout newBarnch
+g 
 git branch -d brachname ---delete  localbranch
 git push --delete -u orgin branchname
 git branch -a
