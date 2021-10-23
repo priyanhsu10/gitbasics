@@ -2,7 +2,7 @@ git config --global user.name "<username>"
 git config --global user.email "<emial>"
 git config --list
 git <command> --help
-git add 
+git add    
 git init 
 git status
 git commit -m "message"
